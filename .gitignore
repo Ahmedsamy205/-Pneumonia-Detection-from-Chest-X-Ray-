@@ -1,0 +1,37 @@
+# ==============================
+# Kaggle API credentials - NEVER upload this!
+# ==============================
+kaggle.json
+*.json
+
+# ==============================
+# Dataset & Model files (too large for GitHub)
+# ==============================
+chest_xray/
+chest-xray-pneumonia.zip
+*.zip
+*.h5
+*.keras
+*.pkl
+*.pt
+
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+
+# ==============================
+# Jupyter Notebook checkpoints
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# OS files
+# ==============================
+.DS_Store
+Thumbs.db
